@@ -1,0 +1,41 @@
+.calculator {
+    max-width: 300px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  input, button {
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .buttons {
+    margin-top: 10px;
+  }
+  
+  button {
+    background-color: #594caf;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ce972f;
+  }
+  
+  button:active {
+    transform: translateY(1px);
+  }
+  
+  #result {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  body {
+    background-image: url('back2.png');
+    background-size: cover;
+    background-position: center;
+  }
